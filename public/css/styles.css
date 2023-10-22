@@ -11241,3 +11241,11 @@ body {
   font-size: 0.75rem;
   border-radius: 0.375rem !important;
 }
+
+.mt-n10 {
+  margin-top: 3rem !important;
+}
+
+mwc-textfield, mwc-textarea, mwc-select {
+  --mdc-theme-primary: #6200ea;
+}
