@@ -7,7 +7,7 @@ const Persedian = () => {
     <div className='container-xl px-4 mt-n10'>
         <div class="row justify-content-between align-items-center mb-5">
                             <div class="col flex-shrink-0 mb-5 mb-md-0 ">
-                                <h1 class="display-6 mb-0 ">Rekap ATK</h1>
+                                <h1 class="display-6 mb-0 fw-bold">Rekap ATK</h1>
                                 {/* <div class="text-muted">Sales overview &amp; summary</div> */}
                             </div>
                             <div class="col-12 col-md-auto ">
@@ -42,7 +42,7 @@ const Persedian = () => {
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="me-3">
                                                     <div class="text-white-75 small">TOTAL (DPA)</div>
-                                                    <div class="text-lg fw-bold">20 Rim</div>
+                                                    <div class="text-lg fw-bold fs-4">60</div>
                                                 </div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar feather-xl text-white-50"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
                                             </div>
@@ -59,7 +59,7 @@ const Persedian = () => {
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="me-3">
                                                     <div class="text-white-75 small">Telah Direalisasikan</div>
-                                                    <div class="text-lg fw-bold">10 Rim</div>
+                                                    <div class="text-lg fw-bold fs-4">40 </div>
                                                 </div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign feather-xl text-white-50"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
                                             </div>
@@ -76,7 +76,7 @@ const Persedian = () => {
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="me-3">
                                                     <div class="text-white-75 small">Sisa Pengadaan</div>
-                                                    <div class="text-lg fw-bold">10 Rim</div>
+                                                    <div class="text-lg fw-bold fs-4">20</div>
                                                 </div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square feather-xl text-white-50"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
                                             </div>
@@ -93,7 +93,7 @@ const Persedian = () => {
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="me-3">
                                                     <div class="text-white-75 small">Sisa ATK</div>
-                                                    <div class="text-lg fw-bold">2 Rim</div>
+                                                    <div class="text-lg fw-bold fs-4">10</div>
                                                 </div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle feather-xl text-white-50"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
                                             </div>
