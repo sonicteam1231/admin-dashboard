@@ -10,6 +10,9 @@ import Dokumenls from "./pages/dokumenls/Dokumenls";
 import Navbar from "./components/navbar/Navbar";
 import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer"
+import Permintaan from './pages/permintaan/Permintaan';
+import Dashboard from './Dashboard';
+import Permintaandua from './pages/permintaan/Permintaandua';
 
 
 function App() {
@@ -73,18 +76,26 @@ function App() {
           element: <Home />,
         },
         {
-          path: "/layout-static",
+          path: "/persediaan",
           element: <Persediaan />,
         },
         {
           path: "/dokumenls",
           element: <Dokumenls/>,
         },
+        {
+          path: "/permintaan",
+          element: <Permintaan/>,
+        },
+        {
+          path: "/permintaandua",
+          element: <Permintaandua/>,
+        },
       ]
     }
   ]);
   return (
-    <RouterProvider router={router} />
+     <RouterProvider router={router} />
   );
 }
 

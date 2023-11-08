@@ -43,9 +43,9 @@ const Menu = () => {
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static">Rekap</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Permintaan</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Penyusunan</a>
+                                    <a class="nav-link" href="persediaan">Rekap</a>
+                                    <a class="nav-link" href="permintaan">Permintaan</a>
+                                    <a class="nav-link" href="permintaandua">Penyusunan</a>
                                     <a class="nav-link" href="layout-sidenav-light.html">Penginputan</a>
                                 </nav>
                             </div>

@@ -113,14 +113,14 @@ const Persedian = () => {
 
 
 
-    <table cellpadding="4px" cellspacing="0px" border="1" autosize="1" id="list-data-tl" class="table table-bordered table-hover table-condensed scroll" width="100%">
+    <table cellpadding="4px" cellspacing="0px" border="1" autosize="1" id="list-data-tl" class="table table-bordered table-hover table-condensed scroll " width="100%">
             <thead style={{ backgroundColor: '#bf212f', color: '#fff', fontWeight: 'bold' }}>
             <tr style={{ fontWeight: 'bold' }}>
 
                     <th colspan="9" class="text-center">HASIL REKAP PENGADAAN PADA SUB KEGIATAN KERJASAMA INTERNAL</th>
                 </tr>
                 <tr style={{ fontWeight: 'bold' }}>
-                    <th rowspan="3" class="text-center">NO.</th>
+                    <th rowspan="3" className="text-center ">NO.</th>
                     <th rowspan="3" class="text-center">URAIAN/NAMA</th>
                     <th rowspan="3" class="text-center">SATUAN</th>
                     <th rowspan="3" class="text-center">TOTAL DPA</th>
